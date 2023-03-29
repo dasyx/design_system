@@ -1,0 +1,87 @@
+/*      GENERAL   
+======================*/
+
+h1 {
+    text-align: center;
+}
+h2, h3 {
+    text-align: left;
+}
+.first-colour,
+.second-colour,
+.gradient {
+    color: #fff;
+}
+
+
+/*      MAIN    
+======================*/
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+.warm-col-grad, 
+.cold-col-grad, 
+.neutral-col-grad {
+    border: 1px solid #00000070;
+}
+.first-colour,
+.second-colour,
+.third-colour,
+.fourth-colour,
+.gradient {
+    margin: 50px;
+    padding: 20px;
+}
+
+/* warm colour*/
+.warm-col-grad .first-colour {
+    background-color: #FF7F00;
+}
+.warm-col-grad .second-colour {
+    background-color: #FFAA00;
+}
+.warm-col-grad .third-colour {
+    background-color: #FFD700;
+}
+.warm-col-grad .fourth-colour {
+    background-color: #FFFACD;
+}
+.warm-col-grad .gradient {
+    background-image: linear-gradient(to right, #FF7F00, #FFAA00, #FFD700, #FFFACD);
+}
+/* cold colour */
+.cold-col-grad .first-colour {
+    background-color: #0000A0;
+}
+.cold-col-grad .second-colour {
+    background-color: #0000D0;
+}
+.cold-col-grad .third-colour {
+    background-color: #00A0FF;
+}
+.cold-col-grad .fourth-colour {
+    background-color: #AFEEEE;
+}
+.cold-col-grad .gradient {
+    background-image: linear-gradient(to right, #0000A0, #0000D0, #00A0FF, #AFEEEE);
+}
+/* neutral colour */
+.neutral-col-grad .first-colour {
+    background-color: #404040;
+}
+.neutral-col-grad .second-colour {
+    background-color: #808080;
+}
+.neutral-col-grad .third-colour {
+    background-color: #C0C0C0;
+}
+.neutral-col-grad .fourth-colour {
+    background-color: #DCDCDC;
+}
+.neutral-col-grad .gradient {
+    background-image: linear-gradient(to left, #D3D3D3, #C0C0C0, #808080, #404040);
+}
