@@ -1,13 +1,76 @@
 /*      GENERAL   
 ======================*/
 
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    src: url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+}
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: url('https://fonts.googleapis.com/css?family=Inter');
+}
+@font-face {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    src: url('https://fonts.googleapis.com/css?family=Nunito');
+}
+
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('https://fonts.googleapis.com/css?family=Roboto');
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('https://fonts.googleapis.com/css?family=Montserrat');
+}
+@font-face {
+    font-family: 'Lato';
+    src: url('https://fonts.googleapis.com/css?family=Lato');
+}
+@font-face {
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 400;
+    src: url('https://fonts.googleapis.com/css?family=Pacifico');
+}
+@font-face {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    src: url('https://fonts.googleapis.com/css?family=Merriweather');
+}
+@font-face {
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: 400;
+    src: url('https://fonts.googleapis.com/css?family=Lobster');
+}
+
+body {
+    background: linear-gradient(to bottom, #4a90e2, #ffffff);
+}
+
 h1 {
     text-align: center;
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
 }
 
 h2,
 h3 {
     text-align: left;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+}
+
+h4, p {
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .first-color,
@@ -133,6 +196,7 @@ h3 {
 }
 
 .earthy-comp-col .third-color {
+    color: #fff;
     background-color: #8B572A;
 }
 
@@ -146,6 +210,7 @@ h3 {
 }
 
 .pastel-comp-col .second-color {
+    color: #000;
     background-color: #FFD8B1;
 }
 
@@ -167,10 +232,12 @@ h3 {
 }
 
 .warm-comp-col .third-color {
+    color: #fff;
     background-color: #8B008B;
 }
 
 .warm-comp-col .fourth-color {
+    color: #fff;
     background-color: #FF00FF;
 }
 
@@ -188,7 +255,39 @@ h3 {
 }
 
 .cool-comp-col .fourth-color {
+    color: #fff;
     background-color: #007F5F;
+}
+
+.fonts h2, 
+.fonts h3 {
+    color: #0074d9;
+}
+.text h2,
+.text h3 {
+    color: #3c6284;
+}
+.animate h2,
+.animate h3 {
+    color: #3f4952;
+}
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+.lato {
+    font-family: 'Lato', sans-serif;
+}
+.merriweather {
+    font-family: 'Merriweather', serif;
+}
+.pacifico {
+    font-family: "Pacifico", cursive;
+}
+.lobster {
+    font-family: 'Lobster', fantasy;
 }
 
 
