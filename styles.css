@@ -4,11 +4,14 @@
 h1 {
     text-align: center;
 }
-h2, h3 {
+
+h2,
+h3 {
     text-align: left;
 }
-.first-colour,
-.second-colour,
+
+.first-color,
+.second-color,
 .gradient {
     color: #fff;
 }
@@ -21,67 +24,187 @@ h2, h3 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    align-items: center;
 }
-.warm-col-grad, 
-.cold-col-grad, 
-.neutral-col-grad {
-    border: 1px solid #00000070;
-}
-.first-colour,
-.second-colour,
-.third-colour,
-.fourth-colour,
-.gradient {
-    margin: 50px;
+
+.color,
+.fonts,
+.text,
+.animate {
+    width: 100%;
+    box-sizing: border-box;
     padding: 20px;
 }
 
-/* warm colour*/
-.warm-col-grad .first-colour {
+.warm-col-grad,
+.cold-col-grad,
+.neutral-col-grad,
+.earthy-comp-col,
+.pastel-comp-col,
+.warm-comp-col,
+.cool-comp-col {
+    display: flex;
+    flex-wrap: nowrap;
+    border: 1px solid #00000070;
+    margin: 50px 0;
+}
+
+.warm-col-grad>*,
+.cold-col-grad>*,
+.neutral-col-grad>*,
+.earthy-comp-col>*,
+.pastel-comp-col>*,
+.warm-comp-col>*,
+.cool-comp-col>* {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+/* warm color*/
+.warm-col-grad .first-color {
     background-color: #FF7F00;
 }
-.warm-col-grad .second-colour {
+
+.warm-col-grad .second-color {
     background-color: #FFAA00;
 }
-.warm-col-grad .third-colour {
+
+.warm-col-grad .third-color {
     background-color: #FFD700;
 }
-.warm-col-grad .fourth-colour {
+
+.warm-col-grad .fourth-color {
     background-color: #FFFACD;
 }
+
 .warm-col-grad .gradient {
     background-image: linear-gradient(to right, #FF7F00, #FFAA00, #FFD700, #FFFACD);
 }
-/* cold colour */
-.cold-col-grad .first-colour {
+
+/* cold color */
+.cold-col-grad .first-color {
     background-color: #0000A0;
 }
-.cold-col-grad .second-colour {
+
+.cold-col-grad .second-color {
     background-color: #0000D0;
 }
-.cold-col-grad .third-colour {
+
+.cold-col-grad .third-color {
     background-color: #00A0FF;
 }
-.cold-col-grad .fourth-colour {
+
+.cold-col-grad .fourth-color {
     background-color: #AFEEEE;
 }
+
 .cold-col-grad .gradient {
     background-image: linear-gradient(to right, #0000A0, #0000D0, #00A0FF, #AFEEEE);
 }
-/* neutral colour */
-.neutral-col-grad .first-colour {
+
+/* neutral color */
+.neutral-col-grad .first-color {
     background-color: #404040;
 }
-.neutral-col-grad .second-colour {
+
+.neutral-col-grad .second-color {
     background-color: #808080;
 }
-.neutral-col-grad .third-colour {
+
+.neutral-col-grad .third-color {
     background-color: #C0C0C0;
 }
-.neutral-col-grad .fourth-colour {
+
+.neutral-col-grad .fourth-color {
     background-color: #DCDCDC;
 }
+
 .neutral-col-grad .gradient {
     background-image: linear-gradient(to left, #D3D3D3, #C0C0C0, #808080, #404040);
+}
+
+/* earthy color*/
+.earthy-comp-col .first-color {
+    background-color: #FF851B;
+}
+
+.earthy-comp-col .second-color {
+    background-color: #007F5F;
+}
+
+.earthy-comp-col .third-color {
+    background-color: #8B572A;
+}
+
+.earthy-comp-col .fourth-color {
+    background-color: #F1E7B6;
+}
+
+/* pastel color */
+.pastel-comp-col .first-color {
+    background-color: #FF80CC;
+}
+
+.pastel-comp-col .second-color {
+    background-color: #FFD8B1;
+}
+
+.pastel-comp-col .third-color {
+    background-color: #AEC6CF;
+}
+
+.pastel-comp-col .fourth-color {
+    background-color: #C7E5D5;
+}
+
+/* warm analog color */
+.warm-comp-col .first-color {
+    background-color: #FF4136;
+}
+
+.warm-comp-col .second-color {
+    background-color: #FF1493;
+}
+
+.warm-comp-col .third-color {
+    background-color: #8B008B;
+}
+
+.warm-comp-col .fourth-color {
+    background-color: #FF00FF;
+}
+
+/* cool analog color */
+.cool-comp-col .first-color {
+    background-color: #0074D9;
+}
+
+.cool-comp-col .second-color {
+    background-color: #39CCCC;
+}
+
+.cool-comp-col .third-color {
+    background-color: #2ECC40;
+}
+
+.cool-comp-col .fourth-color {
+    background-color: #007F5F;
+}
+
+
+/*      MEDIA QUERIES   
+==============================*/
+
+@media (max-width: 768px) {
+
+    .warm-col-grad,
+    .cold-col-grad,
+    .neutral-col-grad,
+    .earthy-comp-col,
+    .pastel-comp-col,
+    .warm-comp-col,
+    .cool-comp-col {
+        flex-direction: column;
+        width: 100%;
+    }
 }
