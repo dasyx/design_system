@@ -20,38 +20,6 @@
     src: url('https://fonts.googleapis.com/css?family=Nunito');
 }
 
-
-@font-face {
-    font-family: 'Roboto';
-    src: url('https://fonts.googleapis.com/css?family=Roboto');
-}
-@font-face {
-    font-family: 'Montserrat';
-    src: url('https://fonts.googleapis.com/css?family=Montserrat');
-}
-@font-face {
-    font-family: 'Lato';
-    src: url('https://fonts.googleapis.com/css?family=Lato');
-}
-@font-face {
-    font-family: 'Pacifico';
-    font-style: normal;
-    font-weight: 400;
-    src: url('https://fonts.googleapis.com/css?family=Pacifico');
-}
-@font-face {
-    font-family: 'Merriweather';
-    font-style: normal;
-    font-weight: 400;
-    src: url('https://fonts.googleapis.com/css?family=Merriweather');
-}
-@font-face {
-    font-family: 'Lobster';
-    font-style: normal;
-    font-weight: 400;
-    src: url('https://fonts.googleapis.com/css?family=Lobster');
-}
-
 body {
     background: linear-gradient(to bottom, #4a90e2, #ffffff);
 }
@@ -62,14 +30,14 @@ h1 {
     font-family: 'Nunito', sans-serif;
 }
 
-h2,
-h3 {
+.color h2,
+.color h3 {
     text-align: left;
     color: #fff;
     font-family: 'Inter', sans-serif;
 }
 
-h4, p {
+.color h4, .color p {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
